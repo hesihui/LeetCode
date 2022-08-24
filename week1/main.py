@@ -7,6 +7,7 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌃⇧B to toggle the breakpoint.
+    nums.sort()
 
 
 # Press the green button in the gutter to run the script.
