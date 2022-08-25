@@ -22,6 +22,6 @@ https://www.techinterviewhandbook.org/grind75?difficulty=Easy&difficulty=Medium&
 
 #### Recursion and Sorting
 
-- using Selection Sort, Quick Sort, Merge Sort: 912 Sort an Arrayhttps://leetcode.com/problems/sort-an-array/
+- using Selection Sort, Quick Sort, Merge Sort: 912 Sort an Array https://leetcode.com/problems/sort-an-array/
 - 283 Move Zeros https://leetcode.com/problems/move-zeroes/
 - 75 Sort Colors https://leetcode.com/problems/sort-colors/

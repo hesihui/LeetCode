@@ -1,5 +1,6 @@
 hashmap apis:
 ``
+
     my_dict={'Dave' : '001' , 'Ava': '002' , 'Joe': '003'}
     my_dict.keys()
     my_dict.values()
@@ -21,5 +22,5 @@ hashmap apis:
 #### Principles of Binary Search:
   - the search space should be decreased after each iteration
   - target (if exist) cannot be ruled out accidentally when we move the value of left or right (保证探索的区间一定有target)
-
   
+#### Sliding Window
