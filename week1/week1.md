@@ -27,6 +27,9 @@ hashmap apis:
 - 先代入 null、 0个、 1个、 2个，查看边界和结果的正确性
 - 判断左右移动的时候，严格按照principles的检查
 
+## Sorting with Areas
+- 一点规律：一般unexplored area都是闭区间
+- 给定数字的area，一般是半开半闭区间，开的部分需要留给即将探索的地方
 
 ## Sliding Window
 - https://leetcode.com/tag/sliding-window/

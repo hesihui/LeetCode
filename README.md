@@ -24,7 +24,11 @@ https://www.techinterviewhandbook.org/grind75?difficulty=Easy&difficulty=Medium&
 
 - using Selection Sort, Quick Sort, Merge Sort: 912 Sort an Array https://leetcode.com/problems/sort-an-array/
 - 283 Move Zeros https://leetcode.com/problems/move-zeroes/
-- 75 Sort Colors https://leetcode.com/problems/sort-colors/
+- <b>75 Sort Colors </b> https://leetcode.com/problems/sort-colors/
 
-#### Queue & Stack
+#### LinkedList
 
+- <b>143 Reorder list  </b>https://leetcode.com/problems/reorder-list/
+- 86 Parition List https://leetcode.com/problems/partition-list/
+- 234  Palindrome Linked List https://leetcode.com/problems/palindrome-linked-list/
+- 141 Linked List Cycle https://leetcode.com/problems/linked-list-cycle/
