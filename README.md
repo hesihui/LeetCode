@@ -32,3 +32,20 @@ https://www.techinterviewhandbook.org/grind75?difficulty=Easy&difficulty=Medium&
 - 86 Parition List https://leetcode.com/problems/partition-list/
 - 234  Palindrome Linked List https://leetcode.com/problems/palindrome-linked-list/
 - 141 Linked List Cycle https://leetcode.com/problems/linked-list-cycle/
+
+#### Queue and Stack
+
+https://www.techinterviewhandbook.org/algorithms/queue/
+
+- 225 Implement Stack Using Queues https://leetcode.com/problems/implement-stack-using-queues/
+- 232 Implement Queue Using Stacks https://leetcode.com/problems/implement-queue-using-stacks/
+- 155 Min Stack https://leetcode.com/problems/min-stack/
+- 20 Valid Paraentheses https://leetcode.com/problems/valid-parentheses/
+
+#### Study time complexity for sorting! 
+
+- https://www.techinterviewhandbook.org/algorithms/sorting-searching/
+
+## Week2
+
+ 
