@@ -90,4 +90,3 @@ return bestResult;
   - 需要判断多种conner case中哪个node是head node
 - Linked list常见的陷阱：
   - 需要判断操作在头尾节点上code是否能处理：头尾节点的取值、是否为空
-  - 

@@ -33,7 +33,7 @@ https://www.techinterviewhandbook.org/grind75?difficulty=Easy&difficulty=Medium&
 - 234  Palindrome Linked List https://leetcode.com/problems/palindrome-linked-list/
 - 141 Linked List Cycle https://leetcode.com/problems/linked-list-cycle/
 
-#### Queues and Stacks
+### Queues and Stacks
 
 https://www.techinterviewhandbook.org/algorithms/queue/
 
