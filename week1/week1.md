@@ -72,4 +72,22 @@ while (右指针没有到达结尾) {
 return bestResult;
 ```
 
-## Sorting
+## LinkedList
+#### Key Points:
+- when you want to dereference a ListNode, make sure it's not None/Null
+- never lose the control of the head pointer of the linked list
+#### 一些需要注意的点：
+- 用快慢指针遍历linked list的时候，需要注意termination condition
+  - (fast.next != null && fast.next.next != null) vs (fast != null && fast.next != null)
+    - (fast.next != null && fast.next.next != null) : 当 list 的node为偶数时候返回中间两个nodes的前一个
+    - (fast != null && fast.next != null)： 当 list 的node为偶数的时候返回中间两个nodes的后一个
+- online algorithm vs offline algorithm
+  - online algorithm: 过程中不断输出部分处理完毕的数据
+  - offline algorithm: 全部运行完才能知道结果
+- Dummy Head的使用
+  - head node会在解题时改变、当linked list需要被修改时
+    - when we want to append new element to an initially empty linked list, we do not have an initial head node.
+  - 需要判断多种conner case中哪个node是head node
+- Linked list常见的陷阱：
+  - 需要判断操作在头尾节点上code是否能处理：头尾节点的取值、是否为空
+  - 
