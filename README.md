@@ -68,11 +68,38 @@ https://www.techinterviewhandbook.org/algorithms/queue/
 
 - 700 Search in a Binary Search Tree https://leetcode.com/problems/search-in-a-binary-search-tree/
 
+- 701 Insertion into a Binary Search Tree https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
+- 450 Delete Node in a BST https://leetcode.com/problems/delete-node-in-a-bst/
+
+- Pre-order, in-order, post-order traverse iterative 
+
 #### Extra from Grind 75:
 
 - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+- https://leetcode.com/problems/binary-tree-right-side-view/
+- https://leetcode.com/problems/subtree-of-another-tree/
+- https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+- https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+- https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
 ### BFS & DFS
+
+https://www.techinterviewhandbook.org/algorithms/graph/
+
+#### BFS
+
+- 215 Kth Largest Element in an Array https://leetcode.com/problems/kth-largest-element-in-an-array/
+- 102 Binary Tree Level order traversal https://leetcode.com/problems/binary-tree-level-order-traversal/
+- 785 Is Graph Bipartite? https://leetcode.com/problems/is-graph-bipartite/
+- 958 Check Completeness of a Binary Tree https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+- 378 Kth Smallest Element in a Sorted Matrix https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+
+#### DFS
+
+- 78 Subset https://leetcode.com/problems/subsets/
+- 22 Generate Parentheses https://leetcode.com/problems/generate-parentheses/
+- https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 
 ### Hash Table and Strings
 
