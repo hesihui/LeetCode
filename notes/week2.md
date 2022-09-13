@@ -245,4 +245,26 @@ https://www.youtube.com/watch?v=pV2kpPD66nE Number of Islands
 1. How many levels in the recursion tree? what does it store on each level? 每层代表什么意义？一般来讲解体之前就知道DFS要递归多少层
 2. How many different states should we try to put on each level? 每层有多少个状态/case 需要try？
 
-- 重要结论： Number of add = number of delection 去其它分支之前一定要还原成原始状态
+- 重要结论： <mark>**Number of add = number of delection 去其它分支之前一定要还原成原始状态**</mark>
+
+#### Discussion
+
+1. subset => 结果中每个元素的顺序无关，每一层的分支数是常数
+2. () => 结果中每个元素的顺序有关，每一层的分支数仍旧是constant, 但是根据condition cut branches
+   1. cutting branch可能需要每一层传递数值记录状态来判断
+3. 99 cents => 考虑同一面值可以拿的数量 分支 => combination question => ways of selecting elements
+4. permutation => 结果中每个元素的顺序有关 ways of ordering items => swap-swap 
+   - whenever every single permutation contains all elements in the initial input and their only differnce is their order, you should consider swap-swap 
+   - 如果每一层有多个不同的state，则用loop解决
+
+## Hash Table and String I
+
+#### Q1 Find the common numbers between two sorted arrays, a[M], B[N]
+
+- 重要！！！需要clarify：
+
+  - 是ascending sorted还是descending sorted
+  - 是否有duplicated element
+  - how large are M and N
+
+  
