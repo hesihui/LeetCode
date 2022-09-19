@@ -263,6 +263,26 @@ https://www.youtube.com/watch?v=pV2kpPD66nE Number of Islands
 
 ## Hash Table
 
+- 一些特殊情况需要考虑: int[] array: array.length == 0 or array == null or target numbers = 0 
+
+- Python Implmentation for pq:
+
+  ```python
+  class Pair:
+      def __init__(self, word, freq):
+          self.word = word
+          self.freq = freq
+      
+      #这里其实可以通过define__lt__来实现minheap的implementation
+      def __lt__(self, p):
+          # if the alphabetic oreder: self.word > p.word, then it has less ordering number for minheap
+          return self.freq < p.freq or (self.freq == p.freq and self.word > p.word)
+        
+   cnt = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue'])
+  # cnt可以得到一个dict with key as word, value as freq
+          
+  ```
+
 #### Q1 Find the common numbers between two sorted arrays, a[M], B[N]
 
 - 重要！！！需要 clarify：
@@ -304,7 +324,16 @@ https://www.youtube.com/watch?v=pV2kpPD66nE Number of Islands
 #### 常见错误
 
 - 在用for循环删除char array之中的element时，剩下的elements会左移，需要注意index。
-
 - 不能盲目调用string api，在不知道api的复杂度
 
-  
+#### 常见technique: fast and slow pointers
+
+- fast pointer用于traverse整个array，每一次while loop, increase one
+- slow pointer用于track需要保留的index
+- fast 和 slow的物理意义：
+  - j = 0 (fast) the letter being processed. in other words, all letters to the left side of j (not including j) are processed letters
+  - i = 0 (slow) all the letters to the left-side of i (not including i) are all processed letters that should be kept
+  - all letters in [i, j - 1] are all area that we don't care 
+  - [j, size - 1] unknow area to explore
+- 如果要找到the latest element that we visited, use stack
+

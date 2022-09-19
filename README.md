@@ -107,6 +107,11 @@ https://www.techinterviewhandbook.org/algorithms/graph/
 
 ### Hash Table and Strings
 
+- 692 Top K Frequent Words https://leetcode.com/problems/top-k-frequent-words/
+- 349 Intersection of Two Arrays https://leetcode.com/problems/intersection-of-two-arrays/
+- 1047 Remove all adjacent duplicates in string https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+- 392 Is Subsequence https://leetcode.com/problems/is-subsequence/
+
 ## Week 3
 
 String II 
