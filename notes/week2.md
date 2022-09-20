@@ -326,7 +326,7 @@ https://www.youtube.com/watch?v=pV2kpPD66nE Number of Islands
 - 在用for循环删除char array之中的element时，剩下的elements会左移，需要注意index。
 - 不能盲目调用string api，在不知道api的复杂度
 
-#### 常见technique: fast and slow pointers
+#### Char Removal, depulication: 常见technique: fast and slow pointers
 
 - fast pointer用于traverse整个array，每一次while loop, increase one
 - slow pointer用于track需要保留的index
@@ -336,4 +336,19 @@ https://www.youtube.com/watch?v=pV2kpPD66nE Number of Islands
   - all letters in [i, j - 1] are all area that we don't care 
   - [j, size - 1] unknow area to explore
 - 如果要找到the latest element that we visited, use stack
+
+#### Find Substring
+
+- 基本方法：
+
+````python
+# 注意 index i 用于iterate large str， 范围是i <= len(large) - len(small)
+# j 用于iterate small str
+for i in range (0, len(large) - len(small) + 1):
+  j = 0
+  while j < len(small) and large[i + j] == small[j]:
+    j += 1
+    if j == len(small):
+    return i
+````
 
