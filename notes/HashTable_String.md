@@ -91,3 +91,79 @@ for i in range (0, len(large) - len(small) + 1):
 
 #### String Reversal
 
+- P0: “I love yahoo" trick
+- 适用范围：reverse the whole sentence but maintain the order of each word
+- step1: reverse the whole sentence 
+  - I love yahoo -> oohay evol I
+- Step2: reverse each word after step 1
+  - Yahoo love I
+
+#### String Right Shift by N characters 
+
+abcdef -> efabcd
+
+efabcd可以被想成句子中的两个词，word1是ef，word2是abcd，然后使用I love yahoo trick
+
+```java
+int n = n % array.length; // 实际需要right shift多少次
+ReverseSubstring(0, array.length - 1); // reverse the whole string
+ReverseSubstring(0, array.legth - 1 - n); // reverse the first half 
+ReverseSubstring(array.length - n,  array.length - 1); //reverse the second half
+```
+
+#### Char Placement 
+
+student => stuXXt
+
+##### what if s2 is longer than s1?  需要考虑到inplace的时候会将原来的string覆盖掉
+
+1. scan from left to right, find the number of occurrences of this pattern
+2. increase the length of the string by "# of occurences"
+3. two pointers in the same direction start from right to left
+   1. if fast is an end of the s1, we copy s2 into i's postion, move i,j  （如果找到target的结尾，则copy s2的内容，移动i和j）
+   2. If fast is not an end of s1, move i,j by 1
+
+##### initialization
+
+- fast = original_text.length - 1
+  - the character being processed 
+- slow = new_text.lenght - 1
+  - everything to right of s are the processwed letters to keep
+
+#### String Shuffing 
+
+c1       c2     c3    c4
+
+ABC|DEFG|123|4567 => A1B2C3D4...
+
+##### steps:
+
+- Reverse C2, reverse C3
+
+  - ABC|DGFE|321|4567
+
+  - l       lm.      m    rm  r 
+
+  - size = r - l + 1
+
+    m = l + size / 2
+
+    lm = l + size /4
+
+    rm = l + size * 3/4
+
+- Reverse C2 + C3
+  - ABC|123|DEFG|4567
+  - l1         r1 l2              r2
+  - l1 = l
+  - r1 = l + size / 2 - 1
+  - 
+- subproblem
+  - starting from l1 and r2 
+
+
+
+关键问题： 注意n/2 == 7 == 奇数情况
+
+<mark>Critical details: gurantee size of chunck 1 == chunck3 => 用等分保证chunck1的长度==chunck2  </mark>
+
