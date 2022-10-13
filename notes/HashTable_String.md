@@ -166,3 +166,8 @@ ABC|DEFG|123|4567 => A1B2C3D4...
 关键问题： 注意n/2 == 7 == 奇数情况
 
 <mark>Critical details: gurantee size of chunck 1 == chunck3 => 用等分保证chunck1的长度==chunck2  </mark>dd
+
+#### Sliding Window in a string
+
+- slow and fast indices
+- 
